@@ -234,6 +234,7 @@ public class CalculatorScript : MonoBehaviour
         textEditor2.SelectAll();
         textEditor2.Copy();
     }
+    //redirect url
     public void LogoURL()
     {
         Application.OpenURL("https://surigaodelnorte.gov.ph");
