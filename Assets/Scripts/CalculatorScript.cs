@@ -56,11 +56,6 @@ public class CalculatorScript : MonoBehaviour
 
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     public void GetHigherAmount()
     {
         HigherAmountFloat = float.Parse(HigherAmount.text);
@@ -235,11 +230,7 @@ public class CalculatorScript : MonoBehaviour
         textEditor2.Copy();
     }
     //redirect url
-    public void LogoURL()
-    {
-        Application.OpenURL("https://surigaodelnorte.gov.ph");
-    }
-        public void Logo2URL()
+    public void Logo2URL()
     {
         Application.OpenURL("https://cydy.dev");
     }
